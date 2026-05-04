@@ -42,6 +42,10 @@
 % Set bibliography title
 \bibtitle{Список используемых источников}
 
+% Set list styles
+\RequirePackage{enumitem}
+\setlist{leftmargin=0pt,itemindent=\dimexpr\parindent + \@listdepth\labelsep,labelwidth=0pt,align=left}
+
 % Set title style
 \RequirePackage{titling}
 \makeatletter
